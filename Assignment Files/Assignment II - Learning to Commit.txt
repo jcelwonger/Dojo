@@ -1,0 +1,37 @@
+Open terminal and navigate to your desktop:
+	Press Windows Key, type "cmd", press Enter
+	"cd C:\users\jelwonger\desktop"
+
+Create a new folder and call it 'test':
+	"md .\test"
+
+Create three files, 'index.html' & 'styles.css' & 'aboutme.txt':
+	"cd .\test"
+	"copy NUL index.html"
+	"copy NUL styles.css"
+	"copy NUL aboutme.txt"
+
+Create your git repository and make an initial commit with a comment:
+	"git init"
+	"git add ."
+	"git commit -m "First Commit: Adding index.html, styles.css, aboutme.txt""
+
+Write a small bio of yourself in the aboutMe.txt file, commit the changes with the message 'updated aboutMe':
+	"notepad aboutme.txt"
+	*add note and save file*
+	"git add ."
+	"git commit -m "updated aboutMe"
+
+Add your favorite movie to your aboutMe.txt file and commit the changes with the message 'added favorite movie to aboutMe:
+	"notepad aboutme.txt"
+	*add favorite movie (Groundhog's Day)*
+	"git add ."
+	"git commit -m "added favorite movie to aboutMe"
+
+View the logs to see your commit history:
+	"git log"
+
+Revert to your last commit, make changes, and recommit:
+	"git revert"
+	*make changes to aboutMe*
+	"git commit -m "made changes to aboutMe"
