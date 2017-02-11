@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Calibri Light", "Gotham-Rounded-Book", sans-serif;
+}
+
+#wrapper {
+    width: 970px;
+}
+
+#header img {
+    width: 10%;
+    display: inline-block;
+}
+
+#header h1 {
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: top;
+    padding-top: 20px;
+    color: #474747;
+}
+
+#header span {
+    color: #25679f;
+}
+
+#header h3 {
+    background: radial-gradient(#5182ab, #25669e);
+    height: 40px;
+    width: 970px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-top: -20px;
+}
+
+#adBar {
+    width: 180px;
+}
+
+#resources {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#resources span {
+    color: #306ea3;
+}
+
+.resInternet {
+    color: red !important;
+}
+
+#advertisement {
+    height: 300px;
+    background-image: url("images/ad_background.png");
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+#advertisement h3 {
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+#advertisement img {
+    width: 50%;
+}
