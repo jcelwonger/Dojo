@@ -1,0 +1,14 @@
+var num1 = 1;
+var num2 = 2;
+var num3 = 3;
+var num4 = 4;
+var string1 = "String 1";
+var string2 = "String 2";
+var string3 = "String 3";
+var isTrue = true;
+var isFalse = false;
+var unDefinedVar;
+console.log("All Number Variables: ", num1, num2, num3, num4);
+console.log("All String Variables: ", string1, string2, string3);
+console.log("All boolean Variables: ", isTrue, isFalse);
+console.log("Undefined Variable: ", unDefinedVar);
