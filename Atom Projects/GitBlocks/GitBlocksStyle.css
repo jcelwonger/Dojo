@@ -54,18 +54,19 @@ span {
     margin-top: 15px;
     margin-left: 15px;
     background-color: #38b0ac;
+    position: relative;
 }
 
 #questions {
-    display: inline-block;
     font-size: 13px;
     position: absolute;
     right: 0px;
-    padding-top: 30px;
-    padding-right: 30px;
+    padding-right: 10px;
+    margin-top: -15px;
 }
 
 #content {
+    position: relative;
     width: 940px;
     margin-top: 15px;
     margin-left: 15px;
@@ -79,56 +80,46 @@ span {
 }
 
 #vertical {
-    height: 500px;
+    height: 520px;
     width: 240px;
     display: inline-block;
     vertical-align: top;
     margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 
-#row1Box {
+#rowBoxes {
+    position: absolute;
+    right: -50px;
+    width: 700px;
     display: inline-block;
     vertical-align: top;
-    padding-left: 20px;
-}
-
-#row2Box {
-    position: absolute;
-    right: 55px;
-    top: 300px;
-}
-
-#row3Box {
-    position: absolute;
-    right: 54px;
-    top: 460px;
 }
 
 #row1 {
     height: 175px;
     width: 175px;
+    margin-top: 20px;
+    margin-right: 23px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 20px;
-    margin-left: 25px;
 }
 
 #row2 {
     height: 150px;
-    width: 290px;
-    display: inline-block;
-    margin-left: 8px;
+    width: 275px;
     margin-top: 20px;
+    margin-right: 30px;
+    display: inline-block;
 }
 
 #row3 {
     height: 150px;
-    width: 600px;
-    display: inline-block;
-    margin-left: 25px;
+    width: 590px;
     margin-top: 20px;
+    display: inline-block;
 }
 
 #footer {
