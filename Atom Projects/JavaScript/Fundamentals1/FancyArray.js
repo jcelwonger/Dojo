@@ -10,4 +10,4 @@ function printArray(arr, symbol, reversed) {
     }
 }
 var arr = ["James", "Jill", "Jane", "Jack"];
-printArray(arr, ">>", true)
+printArray(arr, ">>", true);
