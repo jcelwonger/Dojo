@@ -10,7 +10,7 @@ function howManyDays(targetValue) {
     var daysRequired = 0;
     if (targetValue == Infinity) {
         console.log("I'm not counting to Infinity, please choose a real number.");
-        break; //If the targetValue is infinity, I would like the loop to break and end...
+        return; //If the targetValue is infinity, I would like the loop to break and end...
     }
     for (var reward = 0.01; reward <= targetValue; reward *= 2) {
         daysRequired += 1;
