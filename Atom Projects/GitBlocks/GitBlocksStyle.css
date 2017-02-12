@@ -1,4 +1,151 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Lucida Console", "Courier New", sans-serif;
+    color: #d1d5ca;
+}
+
+h1 {
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 15px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+p {
+    padding-top: 15px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    color: white;
+    padding-left: 10px;
+}
+
+span {
+    color: #4edccb;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    padding-top: 5px;
+    background-color: #dddfd3;
+}
+
+#header {
+    width: 940px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #38b0ac;
+}
+
+#questions {
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    right: 0px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+#content {
+    width: 940px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-top: 5px;
+    background-color: #fbe691;
+}
+
+.subContent {
+    color: #cbd0c6;
+    background-color: #154044;
+}
+
+#vertical {
+    height: 500px;
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#row1Box {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+#row2Box {
+    position: absolute;
+    right: 55px;
+    top: 300px;
+}
+
+#row3Box {
+    position: absolute;
+    right: 54px;
+    top: 460px;
+}
+
+#row1 {
+    height: 175px;
+    width: 175px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#row2 {
+    height: 150px;
+    width: 290px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+#row3 {
+    height: 150px;
+    width: 600px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#footer {
+    height: 70px;
+    width: 940px;
+    background-color: #38b0ac;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#footer p {
+    color: black;
+    padding-top: 30px;
+}
+
+#footer a {
+    color: purple;
 }
