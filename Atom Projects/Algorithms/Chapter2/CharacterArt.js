@@ -1,14 +1,14 @@
-function drawLeftStars(num) {
+function drawLeftStars(num, char) {
     var arr = [];
     var printOut = "";
     for (var i = 0; i < num; i++) {
-        arr.push("*");
+        arr.push(char);
         printOut += arr[i];
     }
     console.log(printOut);
 }
 
-function drawRightStars(num) {
+function drawRightStars(num, char) {
     var arr = [];
     var starsToPrint = 75 - 20;
     var printOut = "";
@@ -16,14 +16,14 @@ function drawRightStars(num) {
         if (starsToPrint > i) {
             arr[i] = " ";
         } else {
-            arr[i] = "*";
+            arr[i] = char;
         }
         printOut += arr[i];
     }
     console.log(printOut);
 }
 
-function drawCenterStars(num) {
+function drawCenterStars(num, char) {
     var arr = [];
     var bottomRange = (75 - num) / 2;
     var upperRange = (bottomRange + num);
@@ -35,7 +35,7 @@ function drawCenterStars(num) {
         i++;
     }
     while (i > bottomRange && i < upperRange) {
-        arr[i] = "*";
+        arr[i] = char;
         printOut += arr[i];
         i++;
     }
@@ -47,6 +47,6 @@ function drawCenterStars(num) {
     console.log(printOut);
 }
 
-drawLeftStars(75);
-drawRightStars(20);
-drawCenterStars(25);
+drawLeftStars(75, "=");
+drawRightStars(20, "<");
+drawCenterStars(25, "~");
