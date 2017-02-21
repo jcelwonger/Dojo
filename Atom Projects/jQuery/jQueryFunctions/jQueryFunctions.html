@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Functions</title>
+    <meta charset="utf-8">
+    <meta name="description" content="jQuery Functions">
+    <meta name="keywords" content="jQuery, functions, practice, class, toggle, append">
+    <meta name="author" content="Jason Elwonger">
+    <link rel="stylesheet" type="text/css" href="jQueryFunctionStyle.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#addClass button").click(function() {
+                $("p:first").addClass("red");
+            });
+            $("#slideToggle button").click(function() {
+                $("#slideToggle h2").slideToggle();
+            });
+            $("#append button").click(function() {
+                $("p:last").append("<p>I am appending this paragraph!</p>");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="addClass">
+        <button>AddClass</button>
+        <h2>AddClass</h2>
+        <p>Click the button to add class 'red' to this paragraph</p>
+    </div>
+    <div id="slideToggle">
+        <button>SlideToggle</button>
+        <h2>SlideToggle</h2>
+        <p>Click the button to slidetoggle a hidden image</p>
+    </div>
+    <div id="append">
+        <button>Append</button>
+        <h2>Append</h2>
+        <p>Click the button to append a new paragraph</p>
+    </div>
+</body>
+
+</html>

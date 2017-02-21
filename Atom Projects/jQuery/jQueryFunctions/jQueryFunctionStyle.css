@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.red {
+    color: red;
+}
+
+p:first {
+    color: blue;
+}
