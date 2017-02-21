@@ -12,33 +12,35 @@
     <script>
         $(document).ready(function() {
             $("#addClass button").click(function() {
-                $("p:first").addClass("red");
+                $("p:first").toggleClass("red"); //I just like toggleClass more
             });
             $("#slideToggle button").click(function() {
                 $("#slideToggle h2").slideToggle();
             });
             $("#append button").click(function() {
-                $("p:last").append("<p>I am appending this paragraph!</p>");
+                $("p:last").append(" I am appending this paragraph!");
             });
         });
     </script>
 </head>
 
 <body>
-    <div id="addClass">
-        <button>AddClass</button>
-        <h2>AddClass</h2>
-        <p>Click the button to add class 'red' to this paragraph</p>
-    </div>
-    <div id="slideToggle">
-        <button>SlideToggle</button>
-        <h2>SlideToggle</h2>
-        <p>Click the button to slidetoggle a hidden image</p>
-    </div>
-    <div id="append">
-        <button>Append</button>
-        <h2>Append</h2>
-        <p>Click the button to append a new paragraph</p>
+    <div id="wrapper">
+        <div id="addClass">
+            <button>AddClass</button>
+            <h2>AddClass</h2>
+            <p>Click the button to add class 'red' to this paragraph</p>
+        </div>
+        <div id="slideToggle">
+            <button>SlideToggle</button>
+            <h2>SlideToggle</h2>
+            <p>Click the button to slidetoggle a hidden image</p>
+        </div>
+        <div id="append">
+            <button>Append</button>
+            <h2>Append</h2>
+            <p>Click the button to append a new paragraph</p>
+        </div>
     </div>
 </body>
 
