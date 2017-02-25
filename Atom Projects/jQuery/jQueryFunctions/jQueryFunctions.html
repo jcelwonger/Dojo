@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>jQuery Functions</title>
+    <title>My jQuery basic assignment!</title>
     <meta charset="utf-8">
     <meta name="description" content="jQuery Functions">
     <meta name="keywords" content="jQuery, functions, practice, class, toggle, append">
@@ -18,7 +18,10 @@
                 $("#slideToggle h2").slideToggle();
             });
             $("#append button").click(function() {
-                $("p:last").append(" I am appending this paragraph!");
+                $("#append p").append(" You have just appended this paragraph!");
+            });
+            $("#fadeToggle button").click(function() {
+                $("#fadeToggle h2").fadeToggle();
             });
         });
     </script>
@@ -29,17 +32,22 @@
         <div id="addClass">
             <button>AddClass</button>
             <h2>AddClass</h2>
-            <p>Click the button to add class 'red' to this paragraph</p>
+            <p>Click the button to add class 'red' to this paragraph.</p>
         </div>
         <div id="slideToggle">
             <button>SlideToggle</button>
             <h2>SlideToggle</h2>
-            <p>Click the button to slidetoggle a hidden image</p>
+            <p>Click the button to slideToggle the Header above.</p>
         </div>
         <div id="append">
             <button>Append</button>
             <h2>Append</h2>
-            <p>Click the button to append a new paragraph</p>
+            <p>Click the button to append a new paragraph!</p>
+        </div>
+        <div id="fadeToggle">
+            <button>FadeToggle</button>
+            <h2>FadeToggle</h2>
+            <p>Click the button to fadeToggle the Header above.</p>
         </div>
     </div>
 </body>
