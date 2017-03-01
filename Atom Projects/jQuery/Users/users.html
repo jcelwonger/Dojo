@@ -8,12 +8,45 @@
     <meta name="author" content="Jason Elwonger">
     <title>Handling User Forms</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/users.js"></script>
 </head>
 
 <body>
-
+    <div id="wrapper">
+        <table id="userTable">
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email Address</th>
+                <th>Contact #</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div id="totalForm">
+            <h2>Add User</h2>
+            <form id="addUser">
+                <div class="formItems">
+                    <label for="firstName">First Name: </label>
+                    <input type="text" name="first_name" placeholder="First Name">
+                </div>
+                <div class="formItems">
+                    <label for="firstName">Last Name: </label>
+                    <input type="text" name="last_name" placeholder="Last Name">
+                </div>
+                <div class="formItems">
+                    <label for="emailAddress">Email Address: </label>
+                    <input type="email" name="email_address" placeholder="Email Address">
+                </div>
+                <div class="formItems">
+                    <label for="phone">Phone #: </label>
+                    <input type="text" name="phone_num" placeholder="Phone #">
+                </div>
+                <input type='submit' value='Add User' class="submitButton">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
