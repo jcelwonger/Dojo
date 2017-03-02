@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 1000px;
+}
+
+#pokemon {
+    width: 565px;
+    display: inline-block;
+}
+
+#pokedex {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
