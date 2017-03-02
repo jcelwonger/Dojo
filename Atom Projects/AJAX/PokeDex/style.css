@@ -1,19 +1,65 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 #wrapper {
     width: 1000px;
+    margin-top: 20px;
 }
 
 #pokemon {
-    width: 565px;
+    width: 750px;
     display: inline-block;
+    vertical-align: top;
 }
 
 #pokedex {
-    width: 300px;
+    width: 200px;
+    height: 400px;
     display: inline-block;
-    vertical-align: top;
+    border: 20px solid red;
+    position: fixed;
+    top: 20px;
+    margin-left: 20px;
+}
+
+#pokeName {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#pokeImg {
+    text-align: center;
+}
+
+#pokeTypes {
+    margin-left: 10px;
+}
+
+#pokeTypes ul {
+    margin-left: 20px;
+    list-style-position: inside;
+    padding-top: 10px;
+}
+
+#pokeHeight {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+#pokeHeight p {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#pokeWeight {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+#pokeWeight p {
+    margin-left: 20px;
+    padding-top: 10px;
 }
