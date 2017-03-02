@@ -26,7 +26,6 @@ $(document).ready(function() {
             $('#pokeTypes').html(pokeTypes);
             $('#pokeHeight').html(pokeHeight);
             $('#pokeWeight').html(pokeWeight);
-            console.log(res);
         });
 
     });

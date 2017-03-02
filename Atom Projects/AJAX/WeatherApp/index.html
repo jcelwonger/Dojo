@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Weather Forecast App">
+    <meta name="keywords" content="weather, api, ajax, forecast">
+    <meta name="author" content="Jason Elwonger">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="js/myScript.js"></script>
+</head>
+
+<body>
+    <form id="citySearch">
+        <input type="text" name="requested_city">
+        <select name="statesDDL" id="statesDDL"></select>
+        <input type="submit" class="submitButton" value="Search Weather">
+    </form>
+    <div id="city"></div>
+    <div id="cityImg"></div>
+    <div id="tempF"></div>
+</body>
+
+</html>
