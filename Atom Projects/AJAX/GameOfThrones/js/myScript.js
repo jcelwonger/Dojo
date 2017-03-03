@@ -11,9 +11,7 @@ $(document).ready(function() {
             htmlString += '<h3>Coat of Arms: ' + res[0].coatOfArms + '</h3>';
             htmlString += '<h3>Titles: ';
             for (var i = 0; i < res[0].titles.length; i++) {
-
                 htmlString += res[0].titles[i] + ', ';
-
             }
             htmlString = htmlString.replace(/,\s*$/, "");
             htmlString += '</h3>';
