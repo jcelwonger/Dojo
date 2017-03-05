@@ -1,8 +1,0 @@
-1. Created new Repository on github called "dojo"
-2. Created local repository on machine called "dojo"
-3. Created file structure mentioned in HTML exercises and algorithm exercises
-4. used "git add ." to add all files to local repository
-5. used "git commit -m "initial commit"" to commit all changes to local repository
-6. used "git remote add origin githubURL" to add remote repository 
-7. used "git push" to push all changes to remote repository
-8. Added, committed, and pushed this text file to github repository
