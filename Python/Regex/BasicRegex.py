@@ -11,7 +11,7 @@ def get_matching_words(regex):
     return matches
 
 
-# I understnad this one
+# I understand this one
 print 'All words that contain "v"'
 print get_matching_words(r'v')
 
