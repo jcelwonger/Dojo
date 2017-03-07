@@ -20,4 +20,4 @@ function sweatshirtPricing(num) {
     return '$' + totalAmount + '.00';
 }
 
-console.log(sweatshirtPricing(1));
+console.log(sweatshirtPricing(900));
