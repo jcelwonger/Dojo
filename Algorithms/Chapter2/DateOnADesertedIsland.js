@@ -29,7 +29,7 @@ function buildCalendar() {
     // Add in Sunday Values
     for (var i = 0; i < keys.length; i++) {
         var day = days[keys[i]];
-        for (var x = 1; x < day.length; x++) {
+        for (var x = 1; x < day.length; x += 7) {
             day[x].push('dayName: Sunday, dayNum: ' + x);
         }
     }
