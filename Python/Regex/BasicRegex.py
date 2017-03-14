@@ -12,36 +12,37 @@ def get_matching_words(regex):
 
 
 # I understand this one
-print 'All words that contain "v"'
+# All words that contain "v"
 print get_matching_words(r'v')
 
 # I understand this one
-print 'All words that contain a double-"s"'
+# All words that contain a double-"s"
 print get_matching_words(r'ss')
 
-# I have the answer, but I have no idea why it works
-print 'All words that end with an "e"'
-print get_matching_words(r'\b(\w+e)\b')
+# If you want to return all words ending in a specific character, your put "character$"
+# All words that end with an "e"
+print get_matching_words(r'e$')
 
-# This seems to work, but I don't really know why
-print 'All words that contain a "b", any character, then another "b"'
+# This works by saying b, then any character '.' then another b
+# All words that contain a "b", any character, then another "b"
 print get_matching_words(r'b.b')
 
-# This seems to work, but I don't really know why
-print 'All words that contain a "b", at least one character, then another "b"'
-print get_matching_words(r'b\wb')
+# This works by saying match on b then another b with at least one character in between
+# All words that contain a "b", at least one character, then another "b"
+print get_matching_words(r'b.+b')
 
-# This seems to work, but I don't really know why
-print 'All words that contain a "b", any number of characters (including zero), then another "b"'
+# This works by saying match on b then another b with any number of chars in between, even zero
+# All words that contain a "b", any num of chars including zero then "b"
 print get_matching_words(r'b.*b')
 
-# This seems to work, but I don't really know why
-print 'All words that include all five vowels in order'
+# This works, and it never asked to exclude repetition...
+# All words that include all five vowels in order
 print get_matching_words(r'a.*e.*i.*o.*u')
 
 # I don't know this right now
-print 'All words that only use the letters in "regular expression" (each letter can appear any number of times)'
+# All words that only use the letters in "regular expression"
+print get_matching_words(r'[]')
 
 # I have the answer, but I don't really know why it's the answer
-print 'All words that contain a double letter'
-print get_matching_words(r'(.)\1')
+# All words that contain a double letter
+# print get_matching_words(r'(.)\1')
