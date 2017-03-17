@@ -13,27 +13,25 @@
 </head>
 
 <body>
-    <form action='/survey' method='post'>
+    <form action='/result' method='post'>
         <label for='name'>Your Name: </label>
         <input type='text' name='name'>
         <label for='location'>Location: </label>
         <select name='location'>
-            <option value=''></option>
-            <option value='dallas'>Dallas</option>
-            <option value='san_francisco'>San Francisco</option>
-            <option value='san_diego'>San Diego</option>
-            <option value='new_york'>New York</option>
+            <option value='Dallas'>Dallas</option>
+            <option value='San Francisco'>San Francisco</option>
+            <option value='San Diego'>San Diego</option>
+            <option value='New York'>New York</option>
         </select>
         <label for='language'>Favorite Language: </label>
         <select name='language'>
-          <option value=''></option>
-          <option value='python'>Python</option>
-          <option value='angularjs'>AngularJS</option>
-          <option value='csharp'>C#</option>
+          <option value='Python'>Python</option>
+          <option value='AngularJS'>AngularJS</option>
+          <option value='C#'>C#</option>
         </select>
         <label for='comment'>Comment (optional): </label>
         <textarea name='comment'></textarea>
-        <input type='submit' name='submit'>
+        <input type='submit' value='Submit Survey'>
     </form>
 </body>
 
