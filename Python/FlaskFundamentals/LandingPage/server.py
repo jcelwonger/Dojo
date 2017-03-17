@@ -13,4 +13,9 @@ def ninjas():
     return render_template('ninjas.html')
 
 
+@app.route('/dojos/new')
+def dojos():
+    return render_template('dojos.html')
+
+
 app.run(debug=True)
