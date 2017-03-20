@@ -12,4 +12,21 @@
     text-align: center;
 }
 
-h1 {}
+#bad_guess {
+    margin: 10px auto;
+    height: 200px;
+    width: 210px;
+    background-color: red;
+}
+
+#good_guess {
+    margin: 10px auto;
+    height: 200px;
+    width: 210px;
+    background-color: green;
+}
+
+h2 {
+    padding-top: 35%;
+    color: white;
+}
