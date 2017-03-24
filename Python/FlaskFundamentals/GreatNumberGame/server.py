@@ -1,5 +1,7 @@
 from flask import Flask, render_template, url_for, request, redirect, session
 import random
+import requests
+from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 app.secret_key = 'SecretStuff'  # Session Key
@@ -24,7 +26,15 @@ def index():
 def compare():
     user_guess = request.form['user_guess']
     if user_guess > session['the_number']:
-        return render_template('index.html', result=too_high)
+        with open('templates\index.html') as file:
+            htmlFile = file.read()
+            soup = BeautifulSoup(htmlFile)
+            headTag = soup.find('h6')
+            divTag = soup.new_tag('div')
+            divTag['id'] = 'bad_guess'
+            headTag.insert_after(divTag)
+            print(soup)
+            return render_template(soup)
     elif user_guess < session['the_number']:
         return render_template('index.html', result=too_low)
     else:

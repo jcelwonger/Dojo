@@ -4,6 +4,23 @@
     font-family: sans-serif;
 }
 
+h2 {
+    padding-top: 35%;
+    color: white;
+}
+
+h4 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
 #wrapper {
     margin: 10px auto;
     padding-top: 40px;
@@ -24,9 +41,4 @@
     height: 200px;
     width: 210px;
     background-color: green;
-}
-
-h2 {
-    padding-top: 35%;
-    color: white;
 }
