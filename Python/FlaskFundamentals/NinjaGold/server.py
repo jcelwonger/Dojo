@@ -9,7 +9,12 @@ app.secret_key = 'SecretStuff'  # Session Key
 
 @app.route('/')  # Default Route
 def index():
-    return render_template('index.html')
+    return render_template('index.html', player_honey=1)
+
+
+@app.route('/process_money', methods=['POST'])
+def index():
+    return render_template('index.html', player_honey=1)
 
 
 app.run(debug=True)  # Run in debug mode
