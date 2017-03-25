@@ -3,25 +3,68 @@
     padding: 0px;
 }
 
+html {
+    background: url('/static/img/background_honey.gif') no-repeat center center fixed;
+    background-size: 90%;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+
 #wrapper {
     margin: 10px auto;
     padding-top: 40px;
     padding-bottom: 40px;
     width: 80%;
+    color: white;
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#honey_pot {
+    margin: 30px auto;
+    width: 100%;
 }
 
 img {
-    padding-top: 20px;
-    display: block;
-    margin: 10px auto;
+    height: 130px;
+    width: 230px;
 }
 
-.rainbowize {
-    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
-    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 75px;
+.relative {
+    position: relative;
+    display: inline-block;
+    height: 130px;
+    width: 230px;
+    margin: 5px;
+}
+
+.absolute_text_top {
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.absolute_text_bottom {
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.absolute-text a {
+    font-size: 16px;
+    color: #b92b27;
 }
