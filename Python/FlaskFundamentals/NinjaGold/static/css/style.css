@@ -4,18 +4,17 @@
 }
 
 html {
-    background: url('/static/img/background_honey.gif') no-repeat center center fixed;
-    background-size: 90%;
-    /*-webkit-background-size: cover;
+    background: url('/static/img/pooh_glory.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
 }
 
 #wrapper {
     margin: 10px auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 80%;
     color: white;
     text-align: center;
@@ -41,7 +40,7 @@ img {
     display: inline-block;
     height: 130px;
     width: 230px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .absolute_text_top {
